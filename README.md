@@ -19,6 +19,7 @@ Program to QR decomposition using the Gram-Schmidt method
 Developed by: A.Nabithra
 RegisterNumber: 24005092
 ```
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -43,6 +44,8 @@ plt.scatter(x,y,color='Red')
 plt.plot(x,ypred,color='Blue')
 plt.show()
 ```
+
+
 
 ## Output
 ![Screenshot 2024-12-03 221014](https://github.com/user-attachments/assets/ebfd1cd1-6b5e-4889-9b4e-f9e4571a3bc8)
