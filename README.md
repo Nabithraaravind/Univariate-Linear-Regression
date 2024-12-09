@@ -31,19 +31,14 @@ xmean = np.mean(x)
 ymean = np.mean(y)
 num=0
 den=0
-
-
 for i in range(len(x)):
     num+=(x[i]-xmean)*(y[i]-ymean)
     den+=(x[i]-xmean)**2
-
 m = num/den
 b = ymean - m*xmean
 print(m,b)
 ypred = m*x+b
 print(ypred)
-
-
 plt.scatter(x,y,color='Red')
 plt.plot(x,ypred,color='Blue')
 plt.show()
